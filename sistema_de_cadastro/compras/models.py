@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+class compras(models.Model):
+    lista = models.CharField(max_length=64)
+    valor = models.IntegerField()
+
